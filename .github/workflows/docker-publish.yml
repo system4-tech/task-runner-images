@@ -45,7 +45,7 @@ jobs:
           context: .
           file: ${{ matrix.os }}/Dockerfile
           push: true
-          tags: ${{ matrix.os }}
+          tags: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:${{ matrix.os }}
           labels: ${{ steps.meta.outputs.labels }}
 
       - name: Generate artifact attestation
