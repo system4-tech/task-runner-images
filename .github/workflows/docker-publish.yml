@@ -40,8 +40,8 @@ jobs:
         id: push
         uses: docker/build-push-action@v6
         with:
-          context: ${{ matrix.os }}
-          file: Dockerfile
+          context: .
+          file: ${{ matrix.os }}/Dockerfile
           push: true
           tags: ${{ matrix.os }}
           labels: ${{ steps.meta.outputs.labels }}
