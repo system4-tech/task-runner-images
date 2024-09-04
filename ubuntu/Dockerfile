@@ -1,5 +1,9 @@
 FROM ubuntu:24.04
 
+LABEL org.opencontainers.image.source=https://github.com/system4-tech/task-runner-images
+LABEL org.opencontainers.image.description="Task Runner Ubuntu 24.04"
+LABEL org.opencontainers.image.licenses=MIT
+
 ENV DEBIAN_FRONTEND=noninteractive
 
 RUN set -eux; \
