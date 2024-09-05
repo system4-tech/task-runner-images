@@ -19,6 +19,7 @@ RUN set -eux; \
     dos2unix \
     findutils \
     git \
+    golang-go \
     iputils-ping \
     jq \
     mediainfo \
