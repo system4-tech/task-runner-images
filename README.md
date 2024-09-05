@@ -1,6 +1,11 @@
 # Task Runner Images
 
-This repository contains base images for task runners.
+This repository contains base images for task runners. 
+
+> [!NOTE]
+>
+> The `task-runner` image is used for issuing "one off" commands or running small maintenance tasks etc., so it should be useless to most people. Outdated by nature because it's running legacy tasks.
+>
 
 # Available Images
 
