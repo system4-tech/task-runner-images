@@ -4,6 +4,7 @@
 
 ## Installed packages
 
+* bats
 * binutils
 * build-essential
 * bzip2
