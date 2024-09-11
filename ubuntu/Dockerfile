@@ -10,6 +10,9 @@ RUN set -eux; \
     apt-get update; \
     apt-get install -y --no-install-recommends \
     bats \
+    bats-assert \
+    bats-file \
+    bats-support \
     binutils \
     build-essential \
     bzip2 \
