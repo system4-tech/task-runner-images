@@ -5,6 +5,9 @@
 ## Installed packages
 
 * bats
+* bats-assert
+* bats-file
+* bats-support
 * binutils
 * build-essential
 * bzip2
